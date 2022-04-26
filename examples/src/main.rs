@@ -1,3 +1,5 @@
+use whistlebeam_compiler::test;
+
 fn main() {
-    println!("Hello, world!");
+    test();
 }
