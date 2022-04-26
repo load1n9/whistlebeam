@@ -1,0 +1,12 @@
+[package]
+name = "whistlebeam_compiler"
+version = "0.1.0"
+edition = "2021"
+authors = ["the Whistle authors"]
+
+[dependencies]
+whistle_lexer = { git = "https://github.com/whistle-lang/whistle" }
+whistle_parser = { git = "https://github.com/whistle-lang/whistle" }
+whistle_common = { git = "https://github.com/whistle-lang/whistle" }
+whistle_ast = { git = "https://github.com/whistle-lang/whistle" }
+# whistle_compiler = { git = "https://github.com/whistle-lang/whistle" }
